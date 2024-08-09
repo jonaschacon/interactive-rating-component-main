@@ -27,19 +27,19 @@ body {
     justify-content: space-around;
     flex-direction: column;
     min-height: 100vh;
-    padding: 20px;
+    padding: 20px 15px;
 
     background-color: var(--very-dark-blue);
     color: white;
     font-family: "Overpass", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    max-width: 280px;
+    max-width: 370px;
     padding: 20px;
     border-radius: 20px;
 
@@ -53,15 +53,15 @@ div.icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 
-    background-color: hsl(213, 19%, 25%);
+    background-color: hsl(213, 19%, 21%);
 }
 
 img {
-    width: 12px;
+    width: 18px;
 }
 
 p {
@@ -82,14 +82,14 @@ div.rating .activate {
 
 div.rating button {
     border: none;
-    width: 38px;
-    height: 38px;
+    width: 45px;
+    height: 45px;
 
     border-radius: 50%;
     background-color: hsl(213, 19%, 18%);
     color: var(--light-grey);
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 150ms;
 }
@@ -116,6 +116,7 @@ button.submit {
     font-weight: bold;
     letter-spacing: 0.2rem;
     color: var(--very-dark-blue);
+    font-size: 1rem;
 
     transition: background-color 0.3s;
     cursor: pointer;
@@ -148,7 +149,7 @@ main.thank-you img {
 
 @media screen and (min-width: 500px) {
     main {
-        max-width: 320px;
+        max-width: 380px;
         padding: 30px;
     }
 }
