@@ -75,6 +75,11 @@ div.rating {
     gap: 5px;
 }
 
+div.rating .activate {
+    background-color: white;
+    color: black;  
+}
+
 div.rating button {
     border: none;
     width: 38px;
@@ -89,10 +94,7 @@ div.rating button {
     transition: all 150ms;
 }
 
-div.rating .activate {
-    background-color: white;
-    color: black;  
-}
+
 
 div.rating button:hover {
     background-color: var(--orange);
